@@ -7,7 +7,7 @@ const h1El = document.querySelector('h1');
 if (userNumber1 > userNumber2) {
     console.log(userNumber1);
     h1El.insertAdjacentHTML('beforeend', userNumber1);
-} else {
+} else if (userNumber1 < userNumber2){ 
     console.log(userNumber2);
     h1El.insertAdjacentHTML('beforeend', userNumber2);
 }
