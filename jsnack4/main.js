@@ -3,7 +3,7 @@
 
 let h1 = document.querySelector("#heading");
 
-let names = ["Marceline", "Finn", "Jake", "IceKing"]
+let names = ["Giovanni", "Riccardo", "Paolo", "Luigi"]
 
 let userName = prompt("Insert your name to check if you're allowed inside")
 
@@ -24,11 +24,11 @@ for(let i = 0; i < names.length; i++){
     }
 
     if(allowed == true){
-        alert("You're allowed")
-        h1.innerHTML = "You're allowed"
+        alert("Lei è il benvenuto!")
+        h1.innerHTML = "Lei è il benvenuto!"
         break
     } else if (allowed == false && i == names.length-1){
-        alert("You're not allowed")
-        h1.innerHTML = "You're not allowed"
+        alert("Vada via la prego!")
+        h1.innerHTML = "Vada via la prego!"
     }
 }
