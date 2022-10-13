@@ -5,7 +5,7 @@ let h1 = document.querySelector("#heading");
 
 let names = ["Giovanni", "Riccardo", "Paolo", "Luigi"]
 
-let userName = prompt("Insert your name to check if you're allowed inside")
+let userName = prompt("Inserisca il suo nome, prego!")
 
 let allowed = false
 /*
